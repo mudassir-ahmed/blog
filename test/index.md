@@ -11,6 +11,7 @@ ogImage:
 tags:
   - HTML5
   - CSS3
+  - JavaScript
 ---
 
 # Create your own Markdown powered blog using GitHub as the headless CMS!!!
