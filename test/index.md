@@ -8,6 +8,9 @@ author:
   picture: "/assets/blog/authors/tim.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
+tags:
+  - HTML5
+  - CSS3
 ---
 
 # Create your own Markdown powered blog using GitHub as the headless CMS!!!
