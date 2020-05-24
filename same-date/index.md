@@ -1,13 +1,11 @@
 ---
 title: "Learn how I used GitHub GraphQL with Next.js, React.js and SSG to create this website"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus."
-coverImage: "/assets/blog/hello-world/cover.jpg"
+hero: "/assets/blog/hello-world/cover.jpg"
 date: "2020-05-22 18:35"
-author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
-ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
+og:
+  image:
+    url: "/assets/blog/hello-world/cover.jpg"
 tags:
   - HTML5
   - CSS3
