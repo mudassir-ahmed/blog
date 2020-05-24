@@ -8,10 +8,9 @@ og:
   image:
     url: "/assets/blog/hello-world/cover.jpg"
 tags:
-  - javascript
+  - Machine learning
+  - Mathematics
 ---
-
-body
 
 ## Machine learning
 
