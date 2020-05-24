@@ -1,16 +1,25 @@
 ---
-title: "Learn how I used GitHub GraphQL with Next.js, React.js and SSG to create this website"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus."
-hero: "/assets/blog/hello-world/cover.jpg"
-alt: "Hero image alt"
-date: "2020-05-22 18:35"
+title: Learn how I used GitHub GraphQL with Next.js, React.js and SSG to create this website
+
+excerpt: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+  ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est
+  ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.
+
+hero: /assets/blog/hello-world/cover.jpg
+alt: Hero image alt
+
+date: 2020-05-22 18:35
+
 og:
   image:
-    url: "/assets/blog/hello-world/cover.jpg"
+    url: /assets/blog/hello-world/cover.jpg
+    
 tags:
   - HTML5
   - CSS3
   - JavaScript
+  
 demo:
   - https://www.youtube.com/watch?v=8ugaeA-nMTc
   - https://www.youtube.com/watch?v=Ke1Y3P9D0Bc
