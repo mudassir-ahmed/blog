@@ -3,7 +3,7 @@ title: "example title"
 excerpt: "this is the excerpt"
 hero: "/public/assets/images/example.jpg"
 alt: "alt"
-date: "2020-05-24 15:36:30 BST"
+date: "2020-05-24T15:36:30Z"
 og:
   image:
     url: "/assets/blog/hello-world/cover.jpg"
