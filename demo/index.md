@@ -13,7 +13,7 @@ date: 2020-05-22 18:35
 
 og:
   image:
-    url: /assets/blog/hello-world/cover.jpg
+    url: https://cdn.dribbble.com/users/2577653/screenshots/11828190/media/3f3a2e8bd343ffd07d8c4145ec1d0007.png
     
 tags:
   - HTML5
