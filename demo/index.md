@@ -6,7 +6,7 @@ excerpt: >
   ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est
   ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus.
 
-hero: /assets/blog/hello-world/cover.jpg
+hero: https://cdn.dribbble.com/users/2577653/screenshots/11828190/media/3f3a2e8bd343ffd07d8c4145ec1d0007.png
 alt: Hero image alt
 
 date: 2020-05-22 18:35
