@@ -25,8 +25,11 @@ demo:
   - https://www.youtube.com/watch?v=Ke1Y3P9D0Bc
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
 
-Some math below
+Here is an example matrix.
+
+$\begin{bmatrix}a & b\\c & d\end{bmatrix}$
 
 Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following equation.
 
