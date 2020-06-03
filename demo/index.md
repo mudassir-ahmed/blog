@@ -30,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Here is an example matrix.
 
 $$
-\begin{bmatrix}a & b\\c & d\end{bmatrix}
+I_2 = \begin{bmatrix}1 & 0\\0 & 1\end{bmatrix}
 $$
 
 Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following equation.
