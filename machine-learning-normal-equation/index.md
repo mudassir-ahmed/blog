@@ -45,8 +45,6 @@ provide an outline.
 ## Cautions
 
 - Some of you may have noticed what if $X^T X$ is non invertible (singular) -
-- this is the reason we use `pinv` as it always gives us a value for
-  $\theta$ Need to compute $(X^T X)^{-1}$ which is slow if $n$ is very large
-- since most
-  implementations have $O(n^3)$ time complexity ($nxn$ is the dimensions)
-
+  this is the reason we use `pinv` as it always gives us a value for $\theta$
+- Need to compute $(X^T X)^{-1}$ which is slow if $n$ is very large
+  since most implementations have $O(n^3)$ time complexity ($nxn$ is the dimensions)
