@@ -42,9 +42,9 @@ download](https://www.gnu.org/software/octave/#install) website.
 | `a = 3`                                         | Variable assignment                               |
 | `a = 3;`                                        | Variable assignment - semicolon suppresses output |
 | `pi`                                            | Constant PI                                       |
-| A = [1 2; 3 4; 5 6]                             | A 3x2 matrix with denoted elements                |
-| V = [1; 2; 3]                                   | A 3x1 column vector i.e $V \in \mathbf{R}^3$      |
-| help eye                                        | Shows man page for eye                            |
+| `A = [1 2; 3 4; 5 6]`                           | A 3x2 matrix with denoted elements                |
+| `V = [1; 2; 3]`                                 | A 3x1 column vector i.e $V \in \mathbf{R}^3$      |
+| `help eye`                                      | Shows man page for eye                            |
 
 ## Further reading
 
