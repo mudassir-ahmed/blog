@@ -12,8 +12,10 @@ tags:
   - Octave
 ---
 
-| Command | Usage                           |
-| :------ | :------------------------------ |
-| eye(n)  | returns a n x n identity matrix |
-| A'      | Transpose of matrix A           |
-| pinv(A) | Pseudo inverse of matrix A      |
+## The basics
+
+| Command   | Usage                           |
+| :-------- | :------------------------------ |
+| `eye(n)`  | returns a n x n identity matrix |
+| `A'`      | Transpose of matrix A           |
+| `pinv(A)` | Pseudo inverse of matrix A      |
