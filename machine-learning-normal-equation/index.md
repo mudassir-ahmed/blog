@@ -1,7 +1,7 @@
 ---
 title: Getting started with linear regression using the normal equation
 excerpt: excerpt
-hero: https://www.disruptivestatic.com/wp-content/uploads/2018/05/machine-learning-ecommerce-blog-1.jpg
+hero: https://cdn.dribbble.com/users/788099/screenshots/5687141/drone_dude_kit8-net.png
 alt: alt
 date: 2020-06-06 20:33
 og:
