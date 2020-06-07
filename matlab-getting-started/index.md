@@ -170,20 +170,19 @@ where
 $$
 \theta =
 \begin{bmatrix}
-\theta_0
-\theta_1
-\cdots
+\theta_0 \\
+\theta_1 \\
+\cdots \\
 \theta_n
 \end{bmatrix}
 
-\\
-
+,
 
 x =
 \begin{bmatrix}
-x_0
-x_1
-\cdots
+x_0 \\
+x_1 \\
+\cdots \\
 x_n
 \end{bmatrix}
 $$
