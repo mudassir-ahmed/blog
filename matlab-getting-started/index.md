@@ -172,17 +172,14 @@ $$
 \begin{bmatrix}
 \theta_0 \\
 \theta_1 \\
-\cdots \\
+\vdots \\
 \theta_n
-\end{bmatrix}
-
-,
-
+\end{bmatrix},
 x =
 \begin{bmatrix}
 x_0 \\
 x_1 \\
-\cdots \\
+\vdots \\
 x_n
 \end{bmatrix}
 $$
