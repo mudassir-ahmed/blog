@@ -1,5 +1,5 @@
 ---
-title: Getting started with Octave for Machine Learning
+title: Getting started with Octave (or Matlab) for Machine Learning
 excerpt: excerpt
 hero: https://cdn.dribbble.com/users/169093/screenshots/624424/f_x_.jpg
 alt: alt
@@ -118,6 +118,41 @@ close % close the plot
 ```
 
 ## Control statements
+
+```matlab
+% for loop
+for i=1:10,
+    A(i) = 2 * A(i); % double each element of matrix A
+end;
+
+% while loop
+i = 0;
+while i <= 10
+    i = i + 1;
+end;
+
+% if, elseif, else
+if i == 5,
+    disp('Found a 5');
+elseif i == 4
+    disp('Found a 4');
+else
+    disp('Keep searching');
+end;
+```
+
+## Functions
+
+Functions are defined in files such as `addTwoNumbers.m`. Make sure your
+function is in your octave search path or current working directory.
+
+```matlab
+% File: addTwoNumbers.m
+function y = addTwoNumbers(a, b)
+y = a + b;
+```
+
+Pro tip: Octave can natively return multiple values.
 
 ## Further reading
 
