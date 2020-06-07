@@ -53,7 +53,7 @@ download](https://www.gnu.org/software/octave/#install) website.
 | `a = 3;`                 | Variable assignment - semicolon suppresses output  |
 | `pi`                     | Constant PI                                        |
 | `A = [1 2; 3 4; 5 6]`    | A 3x2 matrix with denoted elements                 |
-| `V = [1; 2; 3]`          | A 3x1 column vector i.e $V \in \mathbf{R}^3$       |
+| `V = [1; 2; 3]`          | A 3x1 column vector i.e $V \in \mathbb{R}^3$       |
 | `help eye`               | Shows man page for eye                             |
 | `pwd`                    | Print working directory                            |
 | `cd`                     | Change directory                                   |
@@ -153,9 +153,9 @@ function y = addTwoNumbers(a, b)
 y = a + b;
 ```
 
-## Vectorisation
-
 Pro tip: Octave can natively return multiple values.
+
+## Vectorisation
 
 ## Further reading
 
