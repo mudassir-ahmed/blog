@@ -12,10 +12,11 @@ tags:
   - Octave
 ---
 
-Octave allows you to prototype your Machine Learning experiments faster. The
-main reason is that it is a high level programming language. Some people prefer
-to get their algorithms working in Octave and then migrate to another language
-such as Python, R, Java or C++.
+Fun fact: 82% of Fortune 100 companies use MATLAB. Octave allows you to
+prototype your Machine Learning experiments faster. The main reason is that it
+is a high level programming language. Some people prefer to get their
+algorithms working in Octave and then migrate to another language such as
+Python, R, Java or C++.
 
 ## Installation
 
@@ -151,6 +152,8 @@ function is in your octave search path or current working directory.
 function y = addTwoNumbers(a, b)
 y = a + b;
 ```
+
+## Vectorisation
 
 Pro tip: Octave can natively return multiple values.
 
