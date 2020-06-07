@@ -83,7 +83,7 @@ download](https://www.gnu.org/software/octave/#install) website.
 
 Plot the $\sin$ function.
 
-```octave
+```matlab
 x = [0:0.01:0.98];
 y = sin(2*pi*4*x);
 plot(x, y);
@@ -91,7 +91,7 @@ plot(x, y);
 
 Plot the $\sin$ and $\cos$ function on the same graph.
 
-```octave
+```matlab
 x = [0:0.01:0.98];
 y_sin = sin(2*pi*4*x); % Notice the use of x
 y_cos = cos(2*pi*4*x);
@@ -111,7 +111,7 @@ side.
 
 Visualise a matrix.
 
-```octave
+```matlab
 % below is using command chaining of commands
 imagesc(magic(8)), colorbar % plot an 8x8 matrix with a color map
 close % close the plot
