@@ -1,5 +1,5 @@
 ---
-title: Getting started with Octave (or Matlab) for Machine Learning
+title: Getting started with Octave (or MATLAB) for Machine Learning
 excerpt: excerpt
 hero: https://cdn.dribbble.com/users/169093/screenshots/624424/f_x_.jpg
 alt: alt
@@ -62,6 +62,8 @@ download](https://www.gnu.org/software/octave/#install) website.
 | `save filename variable` | Save data                                          |
 | `who`                    | Show variables in the current scope                |
 | `whos`                   | Show variables in the current scope with more info |
+
+Watch out: in Octave/MATLAB vectors are not zero-indexed i.e. they start at one
 
 ## Manipulating data (matrices)
 
