@@ -62,6 +62,63 @@ download](https://www.gnu.org/software/octave/#install) website.
 | `who`                    | Show variables in the current scope                |
 | `whos`                   | Show variables in the current scope with more info |
 
+## Manipulating data (matrices)
+
+| Command       | Usage                                                                                         |
+| :------------ | :-------------------------------------------------------------------------------------------- |
+| `A * B`       | Matrix multiplication                                                                         |
+| `A .* B`      | Element-wise multiplication                                                                   |
+| `abs(V)`      | Element-wise absolute                                                                         |
+| `exp(V)`      | Element-wise exponentiation                                                                   |
+| `log(V)`      | Element-wise log                                                                              |
+| `max(A)`      | Maximum element in $A$                                                                        |
+| `a < 2`       | Element-wise comparison                                                                       |
+| `find(A < 3)` | Elements that are less than 3                                                                 |
+| `sum(A)`      | Sum of $A$                                                                                    |
+| `magic(n)`    | Generate a n x n magic matrix                                                                 |
+| `A .* eye(n)` | Assuming $A$ is an n x n matrix then this yields the diagonal and all other elements are zero |
+| `flipud(A)`   | Flip matrix up-down                                                                           |
+
+## Plotting data
+
+Plot the $\sin$ function.
+
+```octave
+x = [0:0.01:0.98];
+y = sin(2*pi*4*x);
+plot(x, y);
+```
+
+Plot the $\sin$ and $\cos$ function on the same graph.
+
+```octave
+x = [0:0.01:0.98];
+y_sin = sin(2*pi*4*x); % Notice the use of x
+y_cos = cos(2*pi*4*x);
+plot(x, y_sin);
+hold on;
+plot(x, y_cos, 'r'); % Plot cos function in red
+xlabel('x-value')
+ylabel('y-value')
+legend('sin', 'cos')
+title('Plot title')
+print -dpng 'plot.png' % Save the plot
+```
+
+Use `figure` to create multiple figures. Tip: use `help plot` for more
+information on how to use the `plot` command. Use `subplot` to plot side by
+side.
+
+Visualise a matrix.
+
+```octave
+% below is using command chaining of commands
+imagesc(magic(8)), colorbar % plot an 8x8 matrix with a color map
+close % close the plot
+```
+
+## Control statements
+
 ## Further reading
 
 - [GNU Octave Documentation](https://octave.org/doc/v5.2.0/)
