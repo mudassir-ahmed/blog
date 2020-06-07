@@ -159,6 +159,37 @@ Pro tip: Octave can natively return multiple values.
 
 ## Vectorisation
 
+By using the vectorised implementation we can take advantage of matrix multiplication provided by the linear algebra library which will be faster than implementing a summation yourself (usually with a for loop). Below is an example.
+
+$$
+h_{\theta}(x) = \sum^n_{j=0} \theta_j x_j = \theta^T x
+$$
+
+where
+
+$$
+\theta =
+\begin{bmatrix}
+\theta_0
+\theta_1
+\cdots
+\theta_n
+\end{bmatrix}
+
+\\
+
+
+x =
+\begin{bmatrix}
+x_0
+x_1
+\cdots
+x_n
+\end{bmatrix}
+$$
+
+It is easy to see how vectorisation works.
+
 ## Further reading
 
 - [GNU Octave Documentation](https://octave.org/doc/v5.2.0/)
