@@ -21,7 +21,8 @@ investment.
 
 MathWorks provides a free online self-paced [MATLAB
 Course](https://matlabacademy.mathworks.com/). You also get a certificate which
-you can share to show others you have completed the course. 
+you can share to show others you have completed the course. The course is
+really well made.
 
 ## Installation
 
@@ -70,8 +71,9 @@ when running your machine learning experiments.
 | `pwd`                    | Print working directory                            |
 | `cd`                     | Change directory                                   |
 | `ls`                     | List files                                         |
-| `load someData.dat`      | Load data                                          |
-| `save filename variable` | Save data                                          |
+| `load someData.dat`      | Load data |
+| `save filename variable` | Save variables                  |
+| `save workspace.mat`     | Save variables in workspace to a MAT-file |
 | `who`                    | Show variables in the current scope                |
 | `whos`                   | Show variables in the current scope with more info |
 
