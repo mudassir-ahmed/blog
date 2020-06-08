@@ -12,13 +12,22 @@ tags:
   - Octave
 ---
 
-Fun fact: 82% of Fortune 100 companies use MATLAB. Octave allows you to
-prototype your Machine Learning experiments faster. The main reason is that it
-is a high level programming language. Some people prefer to get their
-algorithms working in Octave and then migrate to another language such as
-Python, R, Java or C++.
+82% of Fortune 100 companies use MATLAB; Octave allows you to prototype your
+Machine Learning experiments faster, saving you time and money. Since it's a
+high level programming language you can do things really fast. Some people
+prefer to get their algorithms working in MATLAB and then migrate to another
+language such as Python, R, Java or C++. So learning to use MATLAB is a good
+investment.
+
+MathWorks provides a free online self-paced [MATLAB
+Course](https://matlabacademy.mathworks.com/). You also get a certificate which
+you can share to show others you have completed the course. 
 
 ## Installation
+
+Since MATLAB has a price tag, we will use an open source alternative called
+[Octave](https://octave.org). Octave is largely compatible with MATLAB - so you
+can still follow along if you have MATLAB.
 
 On Ubuntu 20.04
 
@@ -30,7 +39,10 @@ sudo apt install octave
 For other distributions, please consult [GNU Octave
 download](https://www.gnu.org/software/octave/#install) website.
 
-## The basics
+## MATLAB Basics
+
+Instead of replicating a tutorial, below are commands you will find helpful
+when running your machine learning experiments.
 
 | Command(s)               | Usage                                              |
 | :----------------------- | :------------------------------------------------- |
@@ -65,7 +77,7 @@ download](https://www.gnu.org/software/octave/#install) website.
 
 Watch out: in Octave/MATLAB vectors are not zero-indexed i.e. they start at one
 
-## Manipulating data (matrices)
+## MATLAB Manipulating data (matrices/vectors)
 
 | Command       | Usage                                                                                         |
 | :------------ | :-------------------------------------------------------------------------------------------- |
@@ -82,7 +94,7 @@ Watch out: in Octave/MATLAB vectors are not zero-indexed i.e. they start at one
 | `A .* eye(n)` | Assuming $A$ is an n x n matrix then this yields the diagonal and all other elements are zero |
 | `flipud(A)`   | Flip matrix up-down                                                                           |
 
-## Plotting data
+## MATLAB Plotting data
 
 Plot the $\sin$ function.
 
@@ -120,7 +132,7 @@ imagesc(magic(8)), colorbar % plot an 8x8 matrix with a color map
 close % close the plot
 ```
 
-## Control statements
+## MATLAB Control statements
 
 ```matlab
 % for loop
@@ -144,7 +156,7 @@ else
 end;
 ```
 
-## Functions
+## MATLAB Functions
 
 Functions are defined in files such as `addTwoNumbers.m`. Make sure your
 function is in your octave search path or current working directory.
@@ -157,7 +169,7 @@ y = a + b;
 
 Pro tip: Octave can natively return multiple values.
 
-## Vectorisation
+## Vectorisation (advance topic)
 
 By using the vectorised implementation we can take advantage of matrix multiplication provided by the linear algebra library which will be faster than implementing a summation yourself (usually with a for loop). Below is an example.
 
