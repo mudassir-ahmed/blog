@@ -58,6 +58,7 @@ when running your machine learning experiments.
 | `rand(n, m)`             | n x m matrix of randoms                            |
 | `size(A)`                | Dimensions of matrix $A$                           |
 | `clear A`                | Remove variable $A$                                |
+| `clc` | Clear command window |
 | `A'`                     | Transpose of matrix $A$                            |
 | `A(1,2)`                 | Get element $A_{1,2}$                              |
 | `A(2,:)`                 | Get the 2nd row of $A$                             |
@@ -67,6 +68,7 @@ when running your machine learning experiments.
 | `pi`                     | Constant PI                                        |
 | `A = [1 2; 3 4; 5 6]`    | A 3x2 matrix with denoted elements                 |
 | `V = [1; 2; 3]`          | A 3x1 column vector i.e $V \in \mathbb{R}^3$       |
+| `A = 1:4` | Creates a matrix $\begin{bmatrix}1 2 3 4\end{bmatrix}$ |
 | `help eye`               | Shows man page for eye                             |
 | `pwd`                    | Print working directory                            |
 | `cd`                     | Change directory                                   |
@@ -74,10 +76,16 @@ when running your machine learning experiments.
 | `load someData.dat`      | Load data |
 | `save filename variable` | Save variables                  |
 | `save workspace.mat`     | Save variables in workspace to a MAT-file |
+| `load workspace.mat` | Load saved workspace variables |
+| `format long` | Increase precision (default is short) |
 | `who`                    | Show variables in the current scope                |
 | `whos`                   | Show variables in the current scope with more info |
 
 Watch out: in Octave/MATLAB vectors are not zero-indexed i.e. they start at one
+
+Note: All MATLAB variables are arrays. Understand the difference between
+matrix, column vector, row vectror and scalar. Fun fact: MATLAB is an
+abbreviation for MATrix  LABoratory - makes sense.
 
 ## MATLAB Manipulating data (matrices/vectors)
 
