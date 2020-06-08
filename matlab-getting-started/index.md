@@ -28,7 +28,7 @@ really well made.
 
 Since MATLAB has a price tag, we will use an open source alternative called
 [Octave](https://octave.org). Octave is largely compatible with MATLAB - so you
-can still follow along if you have MATLAB.
+can still follow along if your're a MATLAB user.
 
 On Ubuntu 20.04
 
