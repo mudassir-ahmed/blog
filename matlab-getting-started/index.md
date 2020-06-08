@@ -68,7 +68,8 @@ when running your machine learning experiments.
 | `pi`                     | Constant PI                                        |
 | `A = [1 2; 3 4; 5 6]`    | A 3x2 matrix with denoted elements                 |
 | `V = [1; 2; 3]`          | A 3x1 column vector i.e $V \in \mathbb{R}^3$       |
-| `A = 1:4` | Creates a matrix $\begin{bmatrix}1 2 3 4\end{bmatrix}$ |
+| `1:4` | Creates a matrix $\begin{bmatrix}1 & 2 & 3 & 4\end{bmatrix}$ |
+| `0:2:4` | Creates a matrix $\begin{bmatrix}0 & 2 & 4\end{bmatrix}$ values from 0 to 4 with spacing of 2 |
 | `help eye`               | Shows man page for eye                             |
 | `pwd`                    | Print working directory                            |
 | `cd`                     | Change directory                                   |
