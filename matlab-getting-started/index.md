@@ -1,5 +1,5 @@
 ---
-title: Getting started with Octave (or MATLAB) for Machine Learning
+title: Getting started with GNU Octave (or MATLAB) for Machine Learning
 excerpt: excerpt
 hero: https://cdn.dribbble.com/users/169093/screenshots/624424/f_x_.jpg
 alt: alt
@@ -50,12 +50,13 @@ when running your machine learning experiments.
 | `+, -, \\, *`            | Elementary math operations                         |
 | `==`                     | Logical equal to                                   |
 | `~=`                     | Logical not equal to                               |
-| `&&`                     | Logical AND                                        |
-| `||`                     | Logical OR                                         |
+| `&`                      | Logical AND                                        |
+| `|`                      | Logical OR                                         |
 | `xor(a, b)`              | Logical XOR                                        |
 | `eye(n)`                 | n x n identity matrix                              |
 | `ones(n, m)`             | n x m matrix of ones                               |
 | `rand(n, m)`             | n x m matrix of randoms                            |
+| `randi(n, m)`            | n x m matrix of random integers                         |
 | `size(A)`                | Dimensions of matrix $A$                           |
 | `clear A`                | Remove variable $A$                                |
 | `clc` | Clear command window |
@@ -73,6 +74,7 @@ when running your machine learning experiments.
 | `0:2:4` | Creates a matrix $\begin{bmatrix}0 & 2 & 4\end{bmatrix}$ values from 0 to 4 with spacing of 2 |
 | `linspace(first, last, num_elements)` | Useful when creating a range of values (no need to calculate spacing yourself) |
 | `help eye`               | Shows man page for eye                             |
+| `doc eye`                | Open doc page for eye |
 | `pwd`                    | Print working directory                            |
 | `cd`                     | Change directory                                   |
 | `ls`                     | List files                                         |
@@ -103,12 +105,14 @@ in order. Using one index, try extracting the eighth element of data.
 | `exp(V)`      | Element-wise exponentiation                                                                   |
 | `log(V)`      | Element-wise log                                                                              |
 | `max(A)`      | Maximum element in $A$                                                                        |
+| `round(A)` | Round each element to the nearest integer |
 | `a < 2`       | Element-wise comparison                                                                       |
 | `find(A < 3)` | Elements that are less than 3                                                                 |
 | `sum(A)`      | Sum of $A$                                                                                    |
 | `magic(n)`    | Generate a n x n magic matrix                                                                 |
 | `A .* eye(n)` | Assuming $A$ is an n x n matrix then this yields the diagonal and all other elements are zero |
 | `flipud(A)`   | Flip matrix up-down                                                                           |
+| `A(A > 2)` | Logical indexing. You can use a logical array as an array index, in which case MATLAB extracts the array elements where the index is true. |
 
 ## MATLAB Plotting data
 
@@ -129,6 +133,8 @@ y_cos = cos(2*pi*4*x);
 plot(x, y_sin);
 hold on;
 plot(x, y_cos, 'r'); % Plot cos function in red
+% More plot ideas at https://uk.mathworks.com/products/matlab/plot-gallery.html
+% use xlim([xmin xmax]) to zoom in on an area of interest
 xlabel('x-value')
 ylabel('y-value')
 legend('sin', 'cos')
