@@ -62,6 +62,7 @@ when running your machine learning experiments.
 | `A'`                     | Transpose of matrix $A$                            |
 | `A(1,2)`                 | Get element $A_{1,2}$                              |
 | `A(2,:)`                 | Get the 2nd row of $A$                             |
+| `A(end, :)` | Get the last row using the end keyword |
 | `pinv(A)`                | Pseudo inverse of matrix $A$                       |
 | `a = 3`                  | Variable assignment                                |
 | `a = 3;`                 | Variable assignment - semicolon suppresses output  |
@@ -70,6 +71,7 @@ when running your machine learning experiments.
 | `V = [1; 2; 3]`          | A 3x1 column vector i.e $V \in \mathbb{R}^3$       |
 | `1:4` | Creates a matrix $\begin{bmatrix}1 & 2 & 3 & 4\end{bmatrix}$ |
 | `0:2:4` | Creates a matrix $\begin{bmatrix}0 & 2 & 4\end{bmatrix}$ values from 0 to 4 with spacing of 2 |
+| `linspace(first, last, num_elements)` | Useful when creating a range of values (no need to calculate spacing yourself) |
 | `help eye`               | Shows man page for eye                             |
 | `pwd`                    | Print working directory                            |
 | `cd`                     | Change directory                                   |
@@ -87,6 +89,9 @@ Watch out: in Octave/MATLAB vectors are not zero-indexed i.e. they start at one
 Note: All MATLAB variables are arrays. Understand the difference between
 matrix, column vector, row vectror and scalar. Fun fact: MATLAB is an
 abbreviation for MATrix  LABoratory - makes sense.
+
+Tip: If you only use one index with a matrix, it will traverse down each column
+in order. Using one index, try extracting the eighth element of data.
 
 ## MATLAB Manipulating data (matrices/vectors)
 
