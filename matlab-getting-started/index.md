@@ -127,19 +127,32 @@ plot(x, y);
 Plot the $\sin$ and $\cos$ function on the same graph.
 
 ```matlab
+% Create an array from 0 to 0.98 in steps of 0.01
 x = [0:0.01:0.98];
-y_sin = sin(2*pi*4*x); % Notice the use of x
+
+% Sine function
+y_sin = sin(2*pi*4*x); % notice the use of x
+
+% Cosine function
 y_cos = cos(2*pi*4*x);
+
+% Multple plots using 'hold on'
 plot(x, y_sin);
 hold on;
-plot(x, y_cos, 'r'); % Plot cos function in red
-% More plot ideas at https://uk.mathworks.com/products/matlab/plot-gallery.html
-% use xlim([xmin xmax]) to zoom in on an area of interest
+plot(x, y_cos, 'r'); % cos function in red
+
+% Tip: use xlim([xmin xmax]) to zoom in on an area of interest
+
+% Add title, axis labels and legend
+title('Plot title')
 xlabel('x-value')
 ylabel('y-value')
 legend('sin', 'cos')
-title('Plot title')
-print -dpng 'plot.png' % Save the plot
+
+% Save/export the plot as png
+print -dpng 'plot.png'
+
+% See plot gallery at https://uk.mathworks.com/products/matlab/plot-gallery.html
 ```
 
 Use `figure` to create multiple figures. Tip: use `help plot` for more
@@ -149,33 +162,36 @@ side.
 Visualise a matrix.
 
 ```matlab
-% below is using command chaining of commands
-imagesc(magic(8)), colorbar % plot an 8x8 matrix with a color map
-close % close the plot
+% Plot an 8x8 matrix with a color map (using command chaining)
+imagesc(magic(8)), colorbar 
+
+% Close the plot
+close
 ```
 
 ## MATLAB Control statements
 
 ```matlab
 % for loop
-for i=1:10,
-    A(i) = 2 * A(i); % double each element of matrix A
-end;
+for i=1:10
+    % double each element of matrix A
+    A(i) = 2 * A(i);
+end
 
 % while loop
 i = 0;
 while i <= 10
     i = i + 1;
-end;
+end
 
 % if, elseif, else
-if i == 5,
+if i == 5
     disp('Found a 5');
 elseif i == 4
     disp('Found a 4');
 else
     disp('Keep searching');
-end;
+end
 ```
 
 ## MATLAB Functions
@@ -185,6 +201,7 @@ function is in your octave search path or current working directory.
 
 ```matlab
 % File: addTwoNumbers.m
+
 function y = addTwoNumbers(a, b)
 y = a + b;
 ```
