@@ -6,7 +6,7 @@ alt: alt
 date: "2020-06-06 21:41:48"
 og:
   image:
-    url: /assets/blog/hello-world/cover.jpg
+    url: https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/41733/versions/7/screenshot.png
 tags:
   - Machine Learning
   - Octave
@@ -45,74 +45,74 @@ download](https://www.gnu.org/software/octave/#install) website.
 Instead of replicating a tutorial, below are commands you will find helpful
 when running your machine learning experiments.
 
-| Command(s)               | Usage                                              |
-| :----------------------- | :------------------------------------------------- |
-| `+, -, \\, *`            | Elementary math operations                         |
-| `==`                     | Logical equal to                                   |
-| `~=`                     | Logical not equal to                               |
-| `&`                      | Logical AND                                        |
-| `|`                      | Logical OR                                         |
-| `xor(a, b)`              | Logical XOR                                        |
-| `eye(n)`                 | n x n identity matrix                              |
-| `ones(n, m)`             | n x m matrix of ones                               |
-| `rand(n, m)`             | n x m matrix of randoms                            |
-| `randi(n, m)`            | n x m matrix of random integers                         |
-| `size(A)`                | Dimensions of matrix $A$                           |
-| `clear A`                | Remove variable $A$                                |
-| `clc` | Clear command window |
-| `A'`                     | Transpose of matrix $A$                            |
-| `A(1,2)`                 | Get element $A_{1,2}$                              |
-| `A(2,:)`                 | Get the 2nd row of $A$                             |
-| `A(end, :)` | Get the last row using the end keyword |
-| `pinv(A)`                | Pseudo inverse of matrix $A$                       |
-| `a = 3`                  | Variable assignment                                |
-| `a = 3;`                 | Variable assignment - semicolon suppresses output  |
-| `pi`                     | Constant PI                                        |
-| `A = [1 2; 3 4; 5 6]`    | A 3x2 matrix with denoted elements                 |
-| `V = [1; 2; 3]`          | A 3x1 column vector i.e $V \in \mathbb{R}^3$       |
-| `1:4` | Creates a matrix $\begin{bmatrix}1 & 2 & 3 & 4\end{bmatrix}$ |
-| `0:2:4` | Creates a matrix $\begin{bmatrix}0 & 2 & 4\end{bmatrix}$ values from 0 to 4 with spacing of 2 |
-| `linspace(first, last, num_elements)` | Useful when creating a range of values (no need to calculate spacing yourself) |
-| `help eye`               | Shows man page for eye                             |
-| `doc eye`                | Open doc page for eye |
-| `pwd`                    | Print working directory                            |
-| `cd`                     | Change directory                                   |
-| `ls`                     | List files                                         |
-| `load someData.dat`      | Load data |
-| `save filename variable` | Save variables                  |
-| `save workspace.mat`     | Save variables in workspace to a MAT-file |
-| `load workspace.mat` | Load saved workspace variables |
-| `format long` | Increase precision (default is short) |
-| `who`                    | Show variables in the current scope                |
-| `whos`                   | Show variables in the current scope with more info |
+| Command(s)                            | Usage                                                                                         |
+| :------------------------------------ | :-------------------------------------------------------------------------------------------- |
+| `+, -, \\, *`                         | Elementary math operations                                                                    |
+| `==`                                  | Logical equal to                                                                              |
+| `~=`                                  | Logical not equal to                                                                          |
+| `&`                                   | Logical AND                                                                                   |
+| `|`                                   | Logical OR                                                                                    |
+| `xor(a, b)`                           | Logical XOR                                                                                   |
+| `eye(n)`                              | n x n identity matrix                                                                         |
+| `ones(n, m)`                          | n x m matrix of ones                                                                          |
+| `rand(n, m)`                          | n x m matrix of randoms                                                                       |
+| `randi(n, m)`                         | n x m matrix of random integers                                                               |
+| `size(A)`                             | Dimensions of matrix $A$                                                                      |
+| `clear A`                             | Remove variable $A$                                                                           |
+| `clc`                                 | Clear command window                                                                          |
+| `A'`                                  | Transpose of matrix $A$                                                                       |
+| `A(1,2)`                              | Get element $A_{1,2}$                                                                         |
+| `A(2,:)`                              | Get the 2nd row of $A$                                                                        |
+| `A(end, :)`                           | Get the last row using the end keyword                                                        |
+| `pinv(A)`                             | Pseudo inverse of matrix $A$                                                                  |
+| `a = 3`                               | Variable assignment                                                                           |
+| `a = 3;`                              | Variable assignment - semicolon suppresses output                                             |
+| `pi`                                  | Constant PI                                                                                   |
+| `A = [1 2; 3 4; 5 6]`                 | A 3x2 matrix with denoted elements                                                            |
+| `V = [1; 2; 3]`                       | A 3x1 column vector i.e $V \in \mathbb{R}^3$                                                  |
+| `1:4`                                 | Creates a matrix $\begin{bmatrix}1 & 2 & 3 & 4\end{bmatrix}$                                  |
+| `0:2:4`                               | Creates a matrix $\begin{bmatrix}0 & 2 & 4\end{bmatrix}$ values from 0 to 4 with spacing of 2 |
+| `linspace(first, last, num_elements)` | Useful when creating a range of values (no need to calculate spacing yourself)                |
+| `help eye`                            | Shows man page for eye                                                                        |
+| `doc eye`                             | Open doc page for eye                                                                         |
+| `pwd`                                 | Print working directory                                                                       |
+| `cd`                                  | Change directory                                                                              |
+| `ls`                                  | List files                                                                                    |
+| `load someData.dat`                   | Load data                                                                                     |
+| `save filename variable`              | Save variables                                                                                |
+| `save workspace.mat`                  | Save variables in workspace to a MAT-file                                                     |
+| `load workspace.mat`                  | Load saved workspace variables                                                                |
+| `format long`                         | Increase precision (default is short)                                                         |
+| `who`                                 | Show variables in the current scope                                                           |
+| `whos`                                | Show variables in the current scope with more info                                            |
 
 Watch out: in Octave/MATLAB vectors are not zero-indexed i.e. they start at one
 
 Note: All MATLAB variables are arrays. Understand the difference between
 matrix, column vector, row vectror and scalar. Fun fact: MATLAB is an
-abbreviation for MATrix  LABoratory - makes sense.
+abbreviation for MATrix LABoratory - makes sense.
 
 Tip: If you only use one index with a matrix, it will traverse down each column
 in order. Using one index, try extracting the eighth element of data.
 
 ## MATLAB Manipulating data (matrices/vectors)
 
-| Command       | Usage                                                                                         |
-| :------------ | :-------------------------------------------------------------------------------------------- |
-| `A * B`       | Matrix multiplication                                                                         |
-| `A .* B`      | Element-wise multiplication                                                                   |
-| `abs(V)`      | Element-wise absolute                                                                         |
-| `exp(V)`      | Element-wise exponentiation                                                                   |
-| `log(V)`      | Element-wise log                                                                              |
-| `max(A)`      | Maximum element in $A$                                                                        |
-| `round(A)` | Round each element to the nearest integer |
-| `a < 2`       | Element-wise comparison                                                                       |
-| `find(A < 3)` | Elements that are less than 3                                                                 |
-| `sum(A)`      | Sum of $A$                                                                                    |
-| `magic(n)`    | Generate a n x n magic matrix                                                                 |
-| `A .* eye(n)` | Assuming $A$ is an n x n matrix then this yields the diagonal and all other elements are zero |
-| `flipud(A)`   | Flip matrix up-down                                                                           |
-| `A(A > 2)` | Logical indexing. You can use a logical array as an array index, in which case MATLAB extracts the array elements where the index is true. |
+| Command       | Usage                                                                                                                                      |
+| :------------ | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| `A * B`       | Matrix multiplication                                                                                                                      |
+| `A .* B`      | Element-wise multiplication                                                                                                                |
+| `abs(V)`      | Element-wise absolute                                                                                                                      |
+| `exp(V)`      | Element-wise exponentiation                                                                                                                |
+| `log(V)`      | Element-wise log                                                                                                                           |
+| `max(A)`      | Maximum element in $A$                                                                                                                     |
+| `round(A)`    | Round each element to the nearest integer                                                                                                  |
+| `a < 2`       | Element-wise comparison                                                                                                                    |
+| `find(A < 3)` | Elements that are less than 3                                                                                                              |
+| `sum(A)`      | Sum of $A$                                                                                                                                 |
+| `magic(n)`    | Generate a n x n magic matrix                                                                                                              |
+| `A .* eye(n)` | Assuming $A$ is an n x n matrix then this yields the diagonal and all other elements are zero                                              |
+| `flipud(A)`   | Flip matrix up-down                                                                                                                        |
+| `A(A > 2)`    | Logical indexing. You can use a logical array as an array index, in which case MATLAB extracts the array elements where the index is true. |
 
 ## MATLAB Plotting data
 
@@ -164,7 +164,7 @@ Visualise a matrix.
 
 ```matlab
 % Plot an 8x8 matrix with a color map (using command chaining)
-imagesc(magic(8)), colorbar 
+imagesc(magic(8)), colorbar
 
 % Close the plot
 close
