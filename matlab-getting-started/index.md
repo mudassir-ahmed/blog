@@ -131,10 +131,10 @@ Plot the $\sin$ and $\cos$ function on the same graph.
 x = [0:0.01:0.98];
 
 % Sine function
-y_sin = sin(2*pi*4*x); % notice the use of x
+y_sin = sin(2 * pi * 4 * x); % notice the use of x
 
 % Cosine function
-y_cos = cos(2*pi*4*x);
+y_cos = cos(2 * pi * 4 * x);
 
 % Multple plots using 'hold on'
 plot(x, y_sin);
@@ -173,7 +173,7 @@ close
 
 ```matlab
 % for loop
-for i=1:10
+for i = 1:10
     % double each element of matrix A
     A(i) = 2 * A(i);
 end
