@@ -1,7 +1,7 @@
 ---
 title: Getting started with GNU Octave (or MATLAB) for Machine Learning
 excerpt: excerpt
-hero: https://cdn.dribbble.com/users/169093/screenshots/624424/f_x_.jpg
+hero: https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/41733/versions/7/screenshot.png
 alt: alt
 date: "2020-06-06 21:41:48"
 og:
