@@ -120,7 +120,8 @@ Plot the $\sin$ function.
 
 ```matlab
 x = [0:0.01:0.98];
-y = sin(2*pi*4*x);
+y = sin(2 * pi * 4 * x);
+
 plot(x, y);
 ```
 
