@@ -40,7 +40,7 @@ sudo apt install octave
 For other distributions, please consult [GNU Octave
 download](https://www.gnu.org/software/octave/#install) website.
 
-## MATLAB Basics
+## Basics
 
 Instead of replicating a tutorial, below are commands you will find helpful
 when running your machine learning experiments.
@@ -95,7 +95,7 @@ abbreviation for MATrix LABoratory - makes sense.
 Tip: If you only use one index with a matrix, it will traverse down each column
 in order. Using one index, try extracting the eighth element of data.
 
-## MATLAB Manipulating data (matrices/vectors)
+## Manipulating data (matrices/vectors)
 
 | Command       | Usage                                                                                                                                      |
 | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -114,7 +114,7 @@ in order. Using one index, try extracting the eighth element of data.
 | `flipud(A)`   | Flip matrix up-down                                                                                                                        |
 | `A(A > 2)`    | Logical indexing. You can use a logical array as an array index, in which case MATLAB extracts the array elements where the index is true. |
 
-## MATLAB Plotting data
+## Plotting data
 
 Plot the $\sin$ function.
 
@@ -170,7 +170,7 @@ imagesc(magic(8)), colorbar
 close
 ```
 
-## MATLAB Control statements
+## Control statements
 
 ```matlab
 % for loop
@@ -195,7 +195,7 @@ else
 end
 ```
 
-## MATLAB Functions
+## Functions
 
 Functions are defined in files such as `addTwoNumbers.m`. Make sure your
 function is in your octave search path or current working directory.
