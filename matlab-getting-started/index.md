@@ -19,10 +19,10 @@ prefer to get their algorithms working in MATLAB and then migrate to another
 language such as Python, R, Java or C++. So learning to use MATLAB is a good
 investment.
 
-MathWorks provides a free online self-paced [MATLAB
-Course](https://matlabacademy.mathworks.com/). You also get a certificate which
-you can share to show others you have completed the course. The course is
-really well made.
+> MathWorks provides a free online self-paced [MATLAB
+> Course](https://matlabacademy.mathworks.com/). You also get a certificate which
+> you can share to show others you have completed the course. The course is
+> really well made.
 
 ## Installation
 
