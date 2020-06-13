@@ -4,9 +4,6 @@ excerpt: excerpt
 hero: https://wallpaperaccess.com/full/1846920.jpg
 alt: alt
 date: "2020-06-06 21:41:48"
-og:
-  image:
-    url: https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/41733/versions/7/screenshot.png
 tags:
   - Machine Learning
   - Octave
