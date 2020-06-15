@@ -1,5 +1,5 @@
 ---
-title: Bash commands you wish you knew
+title: Shell commands/programs you wish you saw earlier
 excerpt: excerpt
 hero: https://cdn.dribbble.com/users/46302/screenshots/4680183/super.png
 alt: alt
@@ -12,19 +12,30 @@ tags:
   - Terminal
 ---
 
-| Command  | Usage |
-| :------- | :---- |
-| fswatch  |       |
-| sshfs    |       |
-| rsync    |       |
-| tee      |       |
-| uniq     |       |
-| paste    |       |
-| column   |       |
-| xargs    |       |
-| sed      |       |
-| awk      |       |
-| apropros |       |
-| cut      |       |
-| tr       |       |
-| shuf     |       |
+This is just a table of some commands/programs you may not have heard of or
+forget to use often.
+
+## Table of commands/programs
+
+| Command  | Description  |
+| :------- | :----------- |
+| bat      | cat upgraded |
+| file     |              |
+| fswatch  |              |
+| sshfs    |              |
+| rsync    |              |
+| tee      |              |
+| uniq     |              |
+| paste    |              |
+| column   |              |
+| xargs    |              |
+| sed      |              |
+| awk      |              |
+| apropros |              |
+| cut      |              |
+| tr       |              |
+| shuf     |              |
+| file     |              |
+| vim      | Text Editor  |
+
+Hopefully, you saw some new ones or the article gave you a quick recap.
