@@ -9,7 +9,7 @@ tags:
   - deepspeech
 ---
 
-In this article, we will be create a transcriber.
+In this article, we will be trying a transcriber made using Mozilla's DeepSpeech.
 
 ## Installation
 
@@ -44,7 +44,7 @@ deepspeech --model deepspeech-0.7.3-models.pbmm --scorer deepspeech-0.7.3-models
 The output should look similar to the verbose below. Notice the line
 "experience proves this" which shows this is working.
 
-```
+```bash
 Loading model from file deepspeech-0.7.3-models.pbmm
 TensorFlow: v1.15.0-24-gceb46aa
 DeepSpeech: v0.7.3-0-g8858494
