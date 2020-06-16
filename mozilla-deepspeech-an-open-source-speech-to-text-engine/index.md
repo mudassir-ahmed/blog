@@ -82,6 +82,23 @@ npm install
 node start.js
 ```
 
+I had an issue where no verboise was given. This is because it uses the default
+mic which may not exist.
+
+So update `microphone` variable to the following - notice device property was
+added to the [options](https://www.npmjs.com/package/mic#micoptions). Run
+`arecord -l` to see the list of microphones installed.
+
+```javascript
+var microphone = mic({
+  rate: "16000",
+  channels: "1",
+  debug: false,
+  fileType: "wav",
+  device: "plughw:2,0",
+});
+```
+
 Now start streaming.
 
 ## Next steps
