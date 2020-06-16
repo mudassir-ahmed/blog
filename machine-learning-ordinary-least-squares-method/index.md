@@ -1,5 +1,5 @@
 ---
-title: Getting started with linear regression using the normal equation
+title: Getting started with linear regression using the ordinary least squares method
 excerpt: excerpt
 hero: https://cdn.dribbble.com/users/788099/screenshots/5687141/drone_dude_kit8-net.png
 alt: alt
