@@ -1,7 +1,7 @@
 ---
 title: Shell commands/programs you wish you saw earlier
 excerpt: excerpt
-hero: https://image.freepik.com/free-vector/dollar-sign_53876-35141.jpg
+hero: hero.png
 alt: alt
 date: "2020-06-07 08:56:53"
 og:
