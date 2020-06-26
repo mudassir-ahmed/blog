@@ -5,8 +5,7 @@ hero: https://img1.cgtrader.com/items/2381754/bde6cc12a9/striker-low-poly-robot-
 alt: alt
 date: "2020-06-06 21:41:48"
 tags:
-  - Machine Learning
-  - Octave
+  - machine learning
 ---
 
 82% of Fortune 100 companies use MATLAB; Octave allows you to prototype your

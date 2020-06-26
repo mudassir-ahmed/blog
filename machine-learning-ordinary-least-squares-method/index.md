@@ -8,7 +8,7 @@ og:
   image:
     url: /assets/blog/hello-world/cover.jpg
 tags:
-  - Machine Learning
+  - machine learning
 ---
 
 You often want to find parameters that minimise some cost function. One

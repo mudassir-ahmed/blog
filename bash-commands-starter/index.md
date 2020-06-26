@@ -8,8 +8,8 @@ og:
   image:
     url: /assets/blog/hello-world/cover.jpg
 tags:
-  - Bash
-  - Terminal
+  - bash
+  - terminal
 ---
 
 This is just a table of some commands/programs you may not have heard of or
