@@ -1,5 +1,5 @@
 ---
-title: Getting started with GNU Octave (or MATLAB) for Machine Learning
+title: Getting started with GNU Octave (or MATLAB) for machine learning
 excerpt: excerpt
 hero: https://img1.cgtrader.com/items/2381754/bde6cc12a9/striker-low-poly-robot-rig-3d-model-low-poly-animated-rigged-obj-fbx-blend-dae.jpg
 alt: alt
