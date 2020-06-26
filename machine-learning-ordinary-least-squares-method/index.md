@@ -1,7 +1,7 @@
 ---
 title: Getting started with linear regression using the ordinary least squares method
 excerpt: excerpt
-hero: https://images.unsplash.com/photo-1590845947667-381579052389?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+hero: hero.png
 alt: alt
 date: 2020-06-06 20:33
 og:
