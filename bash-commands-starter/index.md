@@ -1,7 +1,7 @@
 ---
 title: Shell commands/programs you wish you saw earlier
 excerpt: excerpt
-hero: https://images.unsplash.com/photo-1573235781593-0094b20e59d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80
+hero: https://image.freepik.com/free-vector/dollar-sign_53876-35141.jpg
 alt: alt
 date: "2020-06-07 08:56:53"
 og:
