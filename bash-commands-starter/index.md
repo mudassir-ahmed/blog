@@ -1,7 +1,7 @@
 ---
 title: Shell commands/programs you wish you saw earlier
 excerpt: excerpt
-hero: hero.png
+hero: https://i.pinimg.com/originals/f9/08/59/f90859f07502afc5c874aa855b8db701.jpg
 alt: alt
 date: "2020-06-07 08:56:53"
 og:
