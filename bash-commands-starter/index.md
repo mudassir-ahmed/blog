@@ -6,7 +6,7 @@ alt: alt
 date: "2020-06-07 08:56:53"
 og:
   image:
-    url: /assets/blog/hello-world/cover.jpg
+    url: https://i.pinimg.com/originals/f9/08/59/f90859f07502afc5c874aa855b8db701.jpg
 tags:
   - bash
   - terminal
