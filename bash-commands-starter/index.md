@@ -37,5 +37,6 @@ forget to use often.
 | shuf     |              |
 | file     |              |
 | vim      | Text Editor  |
+| chmod      | Text Editor  |
 
 Hopefully, you saw some new ones or the article gave you a quick recap.
