@@ -1,5 +1,6 @@
 ---
 title: Shell commands/programs you wish you saw earlier
+status: DRAFT
 excerpt: excerpt
 hero: https://i.pinimg.com/originals/f9/08/59/f90859f07502afc5c874aa855b8db701.jpg
 alt: alt
